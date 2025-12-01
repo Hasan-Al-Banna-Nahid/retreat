@@ -7,7 +7,7 @@ import { Badge } from "@/components/ui/badge";
 import { MapPin, Users, DollarSign, Calendar, ArrowLeft } from "lucide-react";
 import { useVenue } from "@/app/lib/hooks";
 import { BookingForm } from "@/app/components/BookingForm";
-import { formatCurrency } from "@/lib/utils";
+import { formatCurrency } from "@/app/lib/utils";
 import { Loader2 } from "lucide-react";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import { AlertCircle } from "lucide-react";
