@@ -5,7 +5,7 @@ import { useState } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { BookingManager } from "@/app/components/BookingManager";
-import { BookingForm } from "@/app/components/BookingForm";
+import { BookingForm } from "@/app/components/Bookings/BookingForm";
 import { Calendar, ListTodo, PlusCircle } from "lucide-react";
 
 export default function BookingsPage() {
